@@ -1,0 +1,32 @@
+/* Some adjustments for the bootstrap CSS
+Yes, using !important is not the most elegent solution... :) */
+
+.login {
+    height: 100vh;
+}
+
+.prompting {
+    background-color: #f3f1ef;
+    padding: 50px 50px 50px 50px !important;
+}
+
+.results {
+    padding: 50px 50px 50px 50px !important;
+    overflow-y: scroll !important;
+}
+
+.img-fluid {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.selected {
+    border: 5px solid #0275d8;
+}
+
+.library {
+    padding: 50px 50px 50px 50px !important;
+}
+
+.miro-wrapper {
+    height: calc(100vh - 56px);
+}
